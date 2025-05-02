@@ -2,5 +2,5 @@
 
 ## MacOS
 ```bash
-git clone https://github.com/jqyDee/typst-templates /Users/mfischbach/Library/Application Support/typst/packages/local 
+git clone https://github.com/jqyDee/typst-templates ~/Library/Application Support/typst/packages/local 
 ```
