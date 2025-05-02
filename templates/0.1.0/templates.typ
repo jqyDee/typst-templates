@@ -1,4 +1,20 @@
 #let algodat(date_abgabe: none, date: none, body) = {
+  /*
+  table template
+  -----------------
+  #table(columns: 4, 
+    [\#], table.vline(), [1], table.vline(), [2], table.vline(), [3], 
+    table.hline(),
+    [x], [x], [x], [x],
+  )
+  
+  pseudocode import
+  -----------------
+  #import "@preview/algorithmic:0.1.0"
+  #import algorithmic: algorithm
+
+  */
+
   let author = "Matti Fischbach"
   let email = "matti.fischbach@web.de"
   let title = "Algorithmen und Datenstrukturen " + date_abgabe
