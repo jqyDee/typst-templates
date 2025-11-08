@@ -7,7 +7,6 @@
 
   show math.equation: set text(weight: 400)
 
-
   set page(margin: 1in, numbering: "1", number-align: center)
   set text(font: "New Computer Modern")
   show raw: set text(font: "New Computer Modern Mono")
@@ -24,7 +23,7 @@
   }
 
 
-  set heading(numbering: "1.1")
+  set heading(numbering: none)
   
   // Title row.
   align(center)[
@@ -51,9 +50,10 @@
   // Main body.
   set par(leading: 0.75em, spacing: 1.00em, first-line-indent: 0em, justify: true)
 
-  set enum(numbering: "    (a)", spacing: 1.3em)
+  set enum(indent: 2em, numbering: "(a)", spacing: 1.3em)
+  set list(indent: 2em, spacing: 1.3em)
 
-  set table(stroke: none)
+  set table(stroke: 0.5pt)
   set table.vline(stroke: 0.5pt)
   set table.hline(stroke: 0.5pt)
 
@@ -89,3 +89,4 @@
 
   body
 }
+
