@@ -69,7 +69,7 @@
   body
 }
 
-#let generic(date: none, title: none, title_extra: none, heading_pagebreak: true, body) = {
+#let generic(date: none, title: none, subtitle: none, title_extra: none, heading_pagebreak: true, body) = {
   let author = "Matti Fischbach"
   let email = "matti.fischbach@web.de"
   let title = title + " " + title_extra
@@ -81,6 +81,7 @@
   // Title row.
   align(center)[
     #block(text(weight: 500, 1.55em, title))
+    #block(text(weight: 500, 1em, subtitle))
     #v(1em, weak: true)
     #date
   ]
